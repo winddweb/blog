@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How this blog is set up"
-date:   2016-05-17 22:26:10 -0700
+title:  "How I set up this blog"
+date:   2016-05-18 03:20:31 -0700
 categories: coding tutorial
 tags: jekyll meta-blog
 ---
