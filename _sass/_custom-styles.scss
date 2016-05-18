@@ -1,0 +1,41 @@
+// github style markdown checkbox style
+.box {
+    list-style-type: none;
+}
+
+.box_done {
+    list-style-type: none;
+}
+
+.task-list-item {
+  list-style-type: none;
+}
+
+.task-list-item input {
+  margin: 0 0.2em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+// image styles
+/*
+example usage
+{% include image.html
+            img="images/myimage.jpg"
+            title="title for image"
+            caption="caption for image"
+            url="http://example.com" %}
+*/
+.image-wrapper {
+    text-align: center;
+    margin: 3em auto;
+    border: 1px solid #ddd;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
+}
