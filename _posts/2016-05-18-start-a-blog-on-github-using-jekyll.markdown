@@ -96,7 +96,7 @@ Generate Jekyll site
 ---
     
 1.  Push the local repo to remote repo.
-    You can do it using a Github GUI app, such as `SouceTree` or using command line tools. Here I already created my `blog` repository in github, the link is `https://github.com/winddweb/blog.git`
+    You can do it using a Github GUI app, such as `SourceTree` or using command line tools. Here I already created my `blog` repository in github, the link is `https://github.com/winddweb/blog.git`
     
     ```bash
     # stage all files
