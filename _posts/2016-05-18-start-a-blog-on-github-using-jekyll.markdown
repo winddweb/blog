@@ -16,7 +16,7 @@ First of all, I am going to use github pages to host my blog. So if you don't kn
 
 In a nutshell, github provides hosting service, one website as user's page and one website per project.
 
-- `{username}/{username}.github.io` is the repo for your user page at link https://username.github.io (although in my case I have the repo name in `winddweb.github.com` becasue I created it before github changed its hosting domain to `.io`)
+- `{username}/{username}.github.io` is the repo for your user's page at link https://username.github.io (although in my case I have the repo name in `winddweb.github.com` becasue I created it before github changed its hosting domain to `.io`)
 - in your Repo `{username}/{repo-name}`, create a `gh-pages` branch and it will serve as the container for your project website at [https://username.github.io/repo-name]().
 
 I will create my blog at a new repo named `blog`. So it will be [https://winddweb.github.io/blog](https://winddweb.github.io/blog)
@@ -24,13 +24,13 @@ I will create my blog at a new repo named `blog`. So it will be [https://winddwe
 
 What is Jekyll
 ---
-[Jekyll][jekyll] is an open source tool that builds **static** website from text(markdown) renderer, dynamic templates/partials and even some powerful third party plugins. It is the engine behind Githhub Pages, that's why is perfect to use it to build our pages and **blogs** hosted by Github's server for free.
+[Jekyll][jekyll] is an open source tool that builds **static** website from text(markdown) renderer, dynamic templates/partials and even some powerful third party plugins. It is the engine behind Githhub Pages, that's why it is perfect for building our pages and **blogs** hosted by Github's server for free.
 
 
 Requirements
 ---
 
-1.  Check Ruby version. If it's not 2.0.0 or higher, [install it][ruby].
+1.  Check your Ruby version. If it's not 2.0.0 or higher, [install it][ruby].
     
     ```bash
     ruby --version
@@ -156,8 +156,10 @@ Configuration file: /Users/octocat/my-site/_config.yml
 
 
 > If you have any problems regarding setting up Jekyll, you may find it helpful here: [Github's help page for Jekyll][github-jekyll].
+> Remeber to run `bundle update` from time to time, since the world is changing fast and the `github-pages` may be updated frequently that you need to keep up with it.
 
-Conclusion
+
+Next Stop
 ---
 
 To prevent this post getting to long, I will stop here, as I already have the working website locally.  
@@ -165,7 +167,7 @@ To prevent this post getting to long, I will stop here, as I already have the wo
 
 However, if I push the gh-pages branch to the remote repository at this point, I will be able to see a working website at address [https://winddweb.github.io/blog](https://winddweb.github.io/blog), maybe with some problems(such as incorrect CSS style). Because there's some settings we need to change, for example, the site_baseurl). I will discuss it in the next post.
 
-See you later.
+See you in the next one.
 
 
 ---
@@ -186,7 +188,7 @@ Mission in Progress
     - [ ] Change the About page
     - [ ] Change a theme
     - [ ] Add comments functionality
-
+    - [ ] Custom 404 page
 
 [get-git]: https://help.github.com/articles/set-up-git/
 [git-pages]: https://pages.github.com
