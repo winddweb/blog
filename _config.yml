@@ -5,20 +5,14 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Winddweb's Log
-email: winddweb@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://winddweb.github.io" # the base hostname & protocol for your site
-twitter_username: winddweb
-github_username:  winddweb
+# Custom vars
+version:             1.0.0
 
 # Build settings
 markdown: kramdown
+sass:
+    style: compressed
+    sass_dir: _sass
 
 # from Github's settings
 github: [metadata]
@@ -28,3 +22,40 @@ kramdown:
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
+  - jekyll-gist
+
+# About/contact
+author:
+  name:              Yifeng Huang
+  url:               https://winddweb.github.io/blog
+  email:             winddweb@gmail.com
+
+email: winddweb@gmail.com
+twitter_username: winddweb
+github_username:  winddweb
+
+# Site settings
+title: Winddweb's Log
+tagline: 'A Jekyll theme'
+
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://winddweb.github.io" # the base hostname & protocol for your site
+timezone: America/Los_Angeles
+paginate: 5
+
+
+# Permalinks#
+# permalink: pretty
+# permalink: /:title/
+permalink: /:slug
+
+# Include _pages folder for single pages
+include: ["_pages"]
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
