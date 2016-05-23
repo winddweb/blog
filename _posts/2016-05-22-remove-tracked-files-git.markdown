@@ -18,11 +18,7 @@ git add .
 git commit -m "fixing .gitignore"
 ```
 
-
-You can also try this. It only targets the files in `.gitignore`.
-
-```bash
-for file in `cat .gitignore`  ; do git rm -r --cached $file; done
-```
+Simple and Stupid way
+---
 
 Well, if somehow git still tracks your file. Just try to backup the local changes you have, then remove the repository and clone it back from the remote repo. The `.gitignore` should work correctly. 
