@@ -21,9 +21,7 @@ Mission in Progress
 - [ ] Modify config YML
     - [ ] Modify base URL
 - [ ] Add _drafts folder
-- [ ] Change the About page
-- [ ] Change a theme
-- [ ] Add a navigation, and other pages
+
 
 In this post, I will start to customize my blog.
 
@@ -140,7 +138,7 @@ Note: {% raw %} {{ output | prepend: variable }} {% endraw %} this is the syntax
 
 ![baseurl-explained]({{ site.baseurl }}/assets/baseurl-explained.jpg)
 
-My blog is not at the root directory of the domain `winddweb.github.io`, which is defined by `site.url` (btw, this is called `site variable`). My blog is under the `winddweb.github.io/blog` sub-folder, so we need to define the `baseurl` variable, which is exactly the path in the middle. In my case, it's `/blog` (be careful about the slashes). If your root path is deeper, it is possible to have `/path/deep/er`. Note: github project pages has a similar structure, for example `username.github.io/project-name`.
+My blog is not under the root directory of the domain `winddweb.github.io`, which is defined by `site.url` (btw, this is called `site variable`). My blog is under the `winddweb.github.io/blog` sub-folder, so we need to define the `baseurl` variable, which is exactly the path in the middle. In my case, it's `/blog` (be careful about the slashes). If your root path is deeper, it is possible to have `/path/deep/er`. Note: github project pages has a similar structure, for example `username.github.io/project-name`.
 
 So later, wherever you need to include a link in your post, insert the `site.baseurl` when needed. 
 
