@@ -150,7 +150,7 @@ Configuration file: /Users/octocat/my-site/_config.yml
 
 {% include image.html
             img="/assets/Screen Shot 2016-05-18 at 12.55.38 AM.png"
-            title=""
+            title="Screen Shot of the default website from Jekyll at http://127.0.0.1:4000/"
             caption="Screen Shot of the default website from Jekyll at http://127.0.0.1:4000/"
             url="" %}
 
