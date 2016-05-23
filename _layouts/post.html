@@ -13,3 +13,9 @@ layout: default
   </div>
 
 </article>
+
+{% if page.comments == true %}
+<div>
+	{% include comments.html %}
+</div>
+{% endif %}
