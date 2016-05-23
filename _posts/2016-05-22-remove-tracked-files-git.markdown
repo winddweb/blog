@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "How to remove tracked files in git"
+date:   2016-05-22 17:47:16
+categories: blog
+tags: coding git
+---
+
+There are times that you want to ignore a file at some point but it has already been tracked by git. So you will add the ignore-rules in `.gitignore`. Then you find that your git just won't stop reminding you that the file has been changed.
+
+Here's the command to remove it from the cache.
+
+```bash
+git rm -r --cached .
+
+git add .
+
+git commit -m "fixing .gitignore"
+```
+
+
+You can also try this. It only targets the files in `.gitignore`.
+
+```bash
+for file in `cat .gitignore`  ; do git rm -r --cached $file; done
+```
+
+Well, if somehow git still tracks your file. Just try to backup the local changes you have, then remove the repository and clone it back from the remote repo. The `.gitignore` should work correctly. 
