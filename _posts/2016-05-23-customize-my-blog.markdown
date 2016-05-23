@@ -267,4 +267,4 @@ A list of customization I need to do:
 [filters]: https://jekyllrb.com/docs/templates/#filters
 [JEKYLL FOR WEB DESIGNERS]: http://jameswillweb.github.io/jekyll-for-designers/blog/configuration/
 
-[^parker]: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
+[^parker]: [Clearing up confusion around baseurl](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/)
