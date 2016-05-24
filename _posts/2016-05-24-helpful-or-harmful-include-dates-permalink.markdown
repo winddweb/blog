@@ -24,7 +24,7 @@ Let me interpret it, `/category/sub-category/year/month/day/file-name.extension`
 
 There are debates over what SEO friendly URLs are. Should or shouldn't include the category? Should the URL be as short as possible? Should it be stuffed with keywords or not? 
 
-So there is not single rule to follow, but there are some suggestions. First, be focused. This is to say, although the length of the URL does not really matter, you should try to keep the URL focus to the theme of your page. Date is not necessary and will not help your SEO. Only include them when they make sense. For instance, if your website is a news site and post regularly, and the time is a relevant aspect to the reader (since it's news), then you should have dates in your URL. Same rule applies to Categories. It will not help your SEO ranking, maybe it is even harmful because it will dilute the ranking power of any other word in your URL. Unless you need the categories to help you, you should omit it.
+So there is no single rule to follow, but there are some suggestions. First, be focused. That is to say, although the length of the URL does not really matter, you should try to keep the URL focus to the theme of your page. Including the date is not necessary and will not help your SEO. Only include them when they make sense. For instance, if your website is a news site and post regularly, and the time is a relevant aspect to the reader (since it's news), then you should have dates in your URL. The same rule applies to Categories. It will not help your SEO ranking, maybe it is even harmful because it will dilute the ranking power of any other word in your URL. Unless you need the categories to help you, you should omit it.
 
 One more thing, we should omit some words from our URL, not simply use the page/post title. Words that are often left out are: and, but, or, if, that, this, these, the, a, an, in, etc. 
 
@@ -45,7 +45,7 @@ In the [document][jk-perma-built], there are 4 built in styles by Jekyll.
 - `ordinal `: `/:categories/:title.html`
 - `none` : `/:categories/:title.html`
 
-There are also a list of variables we can use to construct our own permalink schema.
+There is also a list of variables we can use to construct our own permalink schema.
 
 ```
 year, month, i_month: Month without leading zeros
