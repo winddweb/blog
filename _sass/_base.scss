@@ -23,6 +23,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    word-spacing: 1.5px;
 }
 
 
@@ -34,7 +35,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit;
 }
 
 
@@ -76,7 +77,19 @@ li {
     }
 }
 
+h1, h2, h3, h4, h5, h6, .pullquote {
+    font-family: 'noto_sans', sans-serif;
+    font-weight: 700;
+    color: $grey-color-dark;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+
+body{
+    font-family: 'noto_serif', serif;
+}
 
 /**
  * Headings
