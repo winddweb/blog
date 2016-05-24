@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Customize my blog"
-date:   2016-05-23 03:30:14
+date:   2016-05-23 03:30
 categories: coding tutorial
 tags: jekyll meta-blog
 ---
@@ -114,7 +114,7 @@ lsi: false
 ```
 
 With that being said, the settings in the config file, are actually all optional, except `url` and `baseurl`. 
-`url` is the domain of your site. It is used to generate all links and URLs throughout the website. In my case, `url` is `https://winddweb.github.io`.
+`url` is the domain of your site. It is used to generate all links and URLs throughout the website. In my case, `url` is `https://winddweb.github.io`. 
 
 ### Fix the baseurl
 
@@ -143,6 +143,20 @@ My blog is not under the root directory of the domain `winddweb.github.io`, whic
 So later, wherever you need to include a link in your post, insert the `site.baseurl` when needed. 
 
 Parker has a good post explaining the baseurl.[^parker]
+
+### Other official configurations
+
+`port: 4000`: This controls which port your local site will use. It is useful when you need to serve multiple websites. Just assign each website with an unique port.
+
+`permalink: /:slug`: This will change the URL structure of your web pages. `/:slug` is a custom structure which only contains the slug of the page's title, e.g., `yourdomain.com/customize-your-blog`.
+
+`include: ["_pages"]`: Include folders to be processed by Jekyll. This setting will tell Jekyll to process markdown files and convert them into htmls in your site. This is useful for cleaning up your file structure. You can put all the single pages into `_pages` folder.
+
+`exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]`: Of course you can exclude some folders which are not part of the website, which are usually generated and used by other helper programs like bower, grunt, git, etc.
+
+[JEKYLL FOR WEB DESIGNERS][JEKYLL FOR WEB DESIGNERS] has an awesome article that goes through some other configs. Of course, for a complete list of configs, go to [Jekyll's documentation][jekyll-config]
+
+More on permalinks: [Create Pages w/o .html extension in the URL](https://jekyllrb.com/docs/pages/)
 
 ### Other custom variables
 
@@ -211,18 +225,6 @@ author:
 So when you start a Jekyll blog, either the original one or with some themes, fill in the custom variables in the config file, and they will be used in all kinds of templates.
 
 
-### Other official configurations
-
-`permalink: /:slug`: This will change the URL structure of your web pages. `/:slug` is a custom structure which only contains the slug of the page's title, e.g., `yourdomain.com/customize-your-blog`.
-
-`include: ["_pages"]`: Include folders to be processed by Jekyll. This setting will tell Jekyll to process markdown files and convert them into htmls in your site. This is useful for cleaning up your file structure. You can put all the single pages into `_pages` folder.
-
-`exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]`: Of course you can exclude some folders which are not part of the website, which are usually generated and used by other helper programs like bower, grunt, git, etc.
-
-[JEKYLL FOR WEB DESIGNERS][JEKYLL FOR WEB DESIGNERS] has an awesome article that goes through some other configs. Of course, for a complete list of configs, go to [Jekyll's documentation][jekyll-config]
-
-More on permalinks: [Create Pages w/o .html extension in the URL](https://jekyllrb.com/docs/pages/)
-
 Working with drafts -- Add `_drafts` folder
 ---
 Yes, just as simple as it says, create a `_drafts` folder and start writing markdown files in it. The filename don't need to have the date like the normal posts do. And they will not appear in normal building unless you run this command.
@@ -239,23 +241,7 @@ Let's take a break
 There are always too much to talk about and I really don't want to stop but the readers will suffer. In this post, I  I will take a step further in future articles. Stay tuned.
 
 
-
-A list of customization I need to do:
----
-
-- [ ] Change a Theme
-    - [ ] Adding a Navigation
-- [ ] Fix the Checkbox 
-- [ ] Fix fenced code block nested in un/ordered lists
-- [ ] Change the code highlighting theme
-- [ ] Add images with captions to my post
-- [ ] Add comments functionality
-- [ ] Custom 404 page
-- [ ] Create `_pages` folder for all your pages
-- [ ] Change the About page
-- [ ] Permalink: should I contain dates in the URL? 
-- [ ] Multilingual?
-
+{% include cus_to_do.md %}
 
 
 [ruby]: https://www.ruby-lang.org/en/documentation/installation/
