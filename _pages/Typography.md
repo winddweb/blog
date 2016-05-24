@@ -33,6 +33,8 @@ Block quote, with footnote
 ---
 
 >"He isn't yet," said Martha. "But he began all wrong. Mother said that there was enough trouble and raging in th' house to set any child wrong. They was afraid his back was weak an' they've always been takin' care of it--keepin' him lyin' down and not lettin' him walk. Once they made him wear a brace but he fretted so he was downright ill. Then a big doctor came to see him an' made them take it off. He talked to th' other doctor quite rough--in a polite way. He said there'd been too much medicine and too much lettin' him have his own way."[^1]
+>
+>**The Secret Garden -- Burnett, Frances Hodgson**
 
 Long paragraph, with strike-through
 ---
@@ -142,6 +144,6 @@ kramdown
 : A Markdown-superset converter
 
 
-[^1]: Burnett, Frances Hodgson, and Tasha Tudor. The Secret Garden. [Web.][secret-garden]
+[^1]: Burnett, Frances Hodgson. The Secret Garden. [Web.][secret-garden]
 
 [secret-garden]: http://www.pagebypagebooks.com/Frances_Hodgson_Burnett/The_Secret_Garden/
