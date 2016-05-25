@@ -2,7 +2,7 @@
 layout: post
 title:  "Is it helpful or harmful to include Dates in the Permalink?"
 categories: coding tutorial
-date: 2016-05-24 05:49:39
+date: 2016-05-24 05:49
 tags: jekyll seo
 ---
 The URL of your website is sometimes overlooked, but it is worth spending a little time to set it right when you start a blog.
