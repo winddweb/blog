@@ -7,18 +7,19 @@
 
 # Custom vars
 version:             1.0.0
+updatedate:          2016-05-25
 
 # Build settings
-markdown: kramdown
+markdown:            kramdown
 sass:
-    style: compressed
-    sass_dir: _sass
+    style:           compressed
+    sass_dir:        _sass
 
 # from Github's settings
-github: [metadata]
+github:             [metadata]
 kramdown:
-  input: GFM
-  hard_wrap: false
+  input:            GFM
+  hard_wrap:        false
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
@@ -30,33 +31,30 @@ author:
   url:               https://winddweb.github.io/blog
   email:             winddweb@gmail.com
 
-twitter_username: winddweb
-github_username:  winddweb
+twitter_username:    winddweb
+github_username:     winddweb
 
-repository: winddweb/blog
+repository:          winddweb/blog
 
 # Site settings
-title: Winddweb's Log
-tagline: A Jekyll theme
+title:               Winddweb's Log
+tagline: >
+  I don't know programming. I don't know photography. I don't know drawing.
 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I don't know programming. I don't know photography. I don't know drawing. Winddweb, I am not sure what it means. Maybe it means wind the web around me.
 
-baseurl: /blog # the subpath of your site, e.g. /blog
-url: https://winddweb.github.io # the base hostname & protocol for your site
-timezone: America/Los_Angeles
-paginate: 5
+baseurl:             /blog # the subpath of your site, e.g. /blog
+url:                 https://winddweb.github.io # the base hostname & protocol for your site
+timezone:            America/Los_Angeles
+paginate:            5
 
 
 # Permalinks#
-# permalink: pretty
-# permalink: /:title/
-permalink: /:slug
+permalink:           /:slug
 
 # Include _pages folder for single pages
-include: ["_pages"]
+include:            ["_pages"]
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+exclude:            [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
