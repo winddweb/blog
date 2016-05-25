@@ -26,6 +26,9 @@ body {
     word-spacing: 1.5px;
 }
 
+body{
+    font-family: 'noto_serif', serif;
+}
 
 
 /**
@@ -35,10 +38,8 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit * 0.5;
 }
-
-
 
 /**
  * Images
@@ -81,14 +82,6 @@ h1, h2, h3, h4, h5, h6, .pullquote {
     font-family: 'noto_sans', sans-serif;
     font-weight: 700;
     color: $grey-color-dark;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    text-transform: capitalize;
-}
-
-body{
-    font-family: 'noto_serif', serif;
 }
 
 /**
