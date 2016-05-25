@@ -9,8 +9,11 @@
 $base-font-family: "noto_serif", serif; //Helvetica, Arial, sans-serif
 $base-font-size:   18px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.618;
+$small-font-size:  $base-font-size * 0.875;
+
+$font-serif: "noto_serif", serif;
+$font-sans:  "noto_sans", Helvetica, Arial, sans-serif;
 
 $spacing-unit:     30px;
 
@@ -44,9 +47,9 @@ $on-laptop:        800px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+				"compass/css3",
 				"variables",
 				"fonts",
         "base",
