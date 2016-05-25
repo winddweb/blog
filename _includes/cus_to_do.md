@@ -4,7 +4,7 @@ A list of customization I need to do:
 - [ ]  Change a Theme
 - [ ]  Adding a Navigation
 - [ ]  Fix the Checkbox
-- [ ]  Fix fenced code block nested in un/ordered lists
+- [x]  Fix fenced code block nested in un/ordered lists
 - [ ]  Change the code highlighting theme
 - [ ]  Add images with captions to my post
 - [ ]  Add comments functionality
