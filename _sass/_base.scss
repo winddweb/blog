@@ -26,10 +26,6 @@ body {
     word-spacing: 1.5px;
 }
 
-body{
-    font-family: 'noto_serif', serif;
-}
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -48,8 +44,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -79,7 +73,7 @@ li {
 }
 
 h1, h2, h3, h4, h5, h6, .pullquote {
-    font-family: 'noto_sans', sans-serif;
+    font-family: $font-sans;
     font-weight: 700;
     color: $grey-color-dark;
 }
