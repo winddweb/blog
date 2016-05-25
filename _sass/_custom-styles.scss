@@ -51,6 +51,8 @@ example usage
     border: 1px solid #ddd;
 
     .image-caption {
+        font-family: $font-sans;
+        font-size: $small-font-size;
         color: $grey-color;
         margin-top: $spacing-unit / 3;
     }
@@ -73,66 +75,67 @@ $parent-background: #fff;
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
+    border-left: 7px solid $grey-color;
 }
 
 
 .theme{
 	font-family: $font-sans;
-  color: #333;
-  border-color: #777;
-  border-style: solid;
-  background-color: $grey-color-light;
-  // @include background-image(linear-gradient(#fff,#ddd));
-  @include background-clip(padding-box);
+    color: #333;
+    border-color: #777;
+    border-style: solid;
+    background-color: $grey-color-light;
+    // @include background-image(linear-gradient(#fff,#ddd));
+    @include background-clip(padding-box);
 }
 
 /* All the necesary for making the tag */
 
 .tag{
-  @extend .theme;
-  display: block;
-  float: left;
-  text-decoration: none;
-  font-size: $font-size;
-  padding: ($font-size / 2) ($font-size / 1.5);
-  line-height: 1;
-  position: relative;
-  margin-left: $font-size * 2;
-  border-width: $border-size $border-size $border-size 0;
-
-  @if($with-radius){
-    @include border-radius(0 $font-size / 4 $font-size / 4 0);
-  }
-
-
-  &:before, &:after{
-    content: "";
-    position:absolute;
-    display:block;
-    border-width: $border-size;
-  }
-
-  &:before{
     @extend .theme;
-    z-index: -1;
-    left:0;
-    top:0;
-    width: $font-size * 2;
-    height: $font-size * 2;
-    border-radius: 0px;
-    @include transform(translate(-$font-size - $border-size , -$border-size) scale(0.70711, 0.70711) rotateZ(-45deg) );
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-size: $font-size;
+    padding: ($font-size / 2) ($font-size / 1.5);
+    line-height: 1;
+    position: relative;
+    margin-left: $font-size * 2;
+    border-width: $border-size $border-size $border-size 0;
+
     @if($with-radius){
-      @include border-radius($font-size / 3 0 0 0);
+        @include border-radius(0 $font-size / 4 $font-size / 4 0);
     }
-  }
 
-  &:after{
+
+    &:before, &:after{
+        content: "";
+        position:absolute;
+        display:block;
+        border-width: $border-size;
+    }
+
+    &:before{
     @extend .theme;
-    top:-$border-size + $font-size / 2 + $font-size / 4 ;
-    left:-$font-size / 3;
-    width: $font-size / 2;
-    height: $font-size / 2;
-    @include border-radius(50%);
-    background: $parent-background;
-  }
+        z-index: -1;
+        left:0;
+        top:0;
+        width: $font-size * 2;
+        height: $font-size * 2;
+        border-radius: 0px;
+        @include transform(translate(-$font-size - $border-size , -$border-size) scale(0.70711, 0.70711) rotateZ(-45deg) );
+        @if($with-radius){
+            @include border-radius($font-size / 3 0 0 0);
+        }
+    }
+
+    &:after{
+        @extend .theme;
+        top:-$border-size + $font-size / 2 + $font-size / 4 ;
+        left:-$font-size / 3;
+        width: $font-size / 2;
+        height: $font-size / 2;
+        @include border-radius(50%);
+        background: $parent-background;
+    }
 }
