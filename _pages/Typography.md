@@ -2,6 +2,7 @@
 layout: page
 title: Typography
 permalink: /Typography/
+tags: [typography, jekyll, style-guide]
 ---
 
 Supposed to be the title (h1 tag)
