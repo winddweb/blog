@@ -232,3 +232,25 @@ table {
 
     }
 }
+
+/**
+ * Footnotes
+* -------------------------------------------------------------- */
+.footnotes {
+    font-size: $small-font-size;
+    border-top: 2px solid $grey-color-light;
+    margin-top: $spacing-unit * 2;
+    padding: $spacing-unit / 2;
+}
+
+/**
+ * Pullquote
+* -------------------------------------------------------------- */
+p.pullquote {
+    font-size: 18px;
+    line-height: 18px * 1.618;
+    margin-bottom: 35px;
+    padding-left: 15px;
+    border-width: 0px 0px 0px 7px;
+    border-style: solid;
+}
