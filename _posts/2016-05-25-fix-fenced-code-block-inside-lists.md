@@ -92,6 +92,6 @@ Note: ^ points out a space I added, to align the list item with the fenced code 
 
 Conclusion
 ---
-I don't know if this is a common issue (or maybe it the standard?). Anyway, I got what I want. Perfect.
+I don't know if this is a common issue (or maybe it is the standard?). Anyway, I got what I want. Perfect.
 
 {% include cus_to_do.md %}
