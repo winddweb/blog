@@ -27,6 +27,7 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    z-index: 100; // to get top of tags
 
     .menu-icon {
         display: none;
