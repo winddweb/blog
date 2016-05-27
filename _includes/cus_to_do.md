@@ -18,4 +18,4 @@
 - [ ] Add search functionality
 
 [jk-search]: http://jekyll.tips/tutorials/search/
-[]: https://blog.sverrirs.com/2016/04/instant-autocomplete-for-static-sites.html
+[search-1]: https://blog.sverrirs.com/2016/04/instant-autocomplete-for-static-sites.html
