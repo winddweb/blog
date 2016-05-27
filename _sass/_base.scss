@@ -104,7 +104,19 @@ a {
     }
 }
 
-
+/**
+ * Paragraphs
+* -------------------------------------------------------------- */
+p.drop-cap::first-letter {
+  float: left;
+  font-size: $base-font-size * 1.618 * 3 - $base-font-size * 0.618;
+  line-height: 0.9;
+  margin-right: .2em;
+  margin-top: $base-font-size * 0.618 / 2 + 1px;
+  color: $brand-color;
+  // background-color: $grey-color-light;
+  border: 2px solid;
+}
 
 /**
  * Blockquotes
