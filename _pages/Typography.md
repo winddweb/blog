@@ -42,6 +42,15 @@ Long paragraph, with strike-through
 
 "He's th' worst young nowt as ever was!" said Martha. "I won't say as he hasn't been ill a good bit. He's had coughs an' colds that's ~~nearly killed~~ him two or three times. Once he had rheumatic fever an' once he had typhoid. Eh! Mrs. Medlock did get a fright then. He'd been out of his head an' she was talkin' to th' nurse, thinkin' he didn't know nothin', an' she said, 'He'll die this time sure enough, an' best thing for him an' for everybody.' An' she looked at him an' there he was with his big eyes open, starin' at her as sensible as she was herself. She didn't know wha'd happen but he just stared at her an' says, 'You give me some water an' stop talkin'.'"
 
+Drop Cap
+---
+<p class="drop-cap">
+He'd been out of his head an' she was talkin' to th' nurse, thinkin' he didn't know nothin', an' she said, 'He'll die this time sure enough, an' best thing for him an' for everybody.' An' she looked at him an' there he was with his big eyes open, starin' at her as sensible as she was herself.
+</p>
+<p class="drop-cap">
+She looked at him an' there he was with his big eyes open, starin' at her as sensible as she was herself. He'd been out of his head an' she was talkin' to th' nurse, thinkin' he didn't know nothin', an' she said, 'He'll die this time sure enough, an' best thing for him an' for everybody.'
+</p>
+
 Unordered list, and nested
 ---
 
