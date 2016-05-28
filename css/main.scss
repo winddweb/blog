@@ -9,13 +9,13 @@
 $base-font-family: "noto_serif", serif; //Helvetica, Arial, sans-serif
 $base-font-size:   18px;
 $base-font-weight: 400;
-$base-line-height: 1.618;
+$base-line-height: 1.6;
 $small-font-size:  $base-font-size * 0.875;
 
 $font-serif: "noto_serif", serif;
 $font-sans:  "noto_sans", Helvetica, Arial, sans-serif;
 
-$spacing-unit:     30px;
+$spacing-unit:     $base-font-size * 1.6;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
