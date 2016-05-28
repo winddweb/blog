@@ -6,10 +6,10 @@
 - [x] Fix fenced code block nested in un/ordered lists
 - [x] Fix the Checkbox
 - [x] Add images with captions to my post
+- [x] Add comments functionality
 - [ ] Change a Theme
 - [ ] Adding a Navigation
 - [ ] Change the code highlighting theme
-- [ ] Add comments functionality
 - [ ] Custom 404 page
 - [ ] Create _pages folder for all your pages
 - [ ] Add tags to post
