@@ -8,6 +8,11 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+@mixin repeat-lines {
+    background-image:linear-gradient(to right, #fff 5px, transparent 1px), linear-gradient($brand-color 1px, transparent 1px);
+    background-size: 20px 30px;
+    background-position: 0px 34px;
+}
 
 
 /**
@@ -24,17 +29,24 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
     word-spacing: 1.5px;
+
+    // @include repeat-lines;
 }
+
 
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
+h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit * 0.5;
+    margin-bottom: $spacing-unit / 2;
+}
+
+h1 {
+    margin-bottom: $spacing-unit;
 }
 
 /**
@@ -243,7 +255,17 @@ table {
     td {
 
     }
+
+    tbody tr:nth-child(even)  td { background-color: #eee; }
+
+    @include media-query($on-palm) {
+        overflow-x: auto;
+        display: block;
+    }
+
 }
+
+
 
 /**
  * Footnotes
