@@ -8,7 +8,7 @@ comments: true
 
 Target
 ---
-"Talk is cheap, show me the code". Sorry, wrong script. When you blog, you hope someone will read it. When people read it with their brains, they probably will have questions. Of course, you can have people connact you by twitter. However, discussions with the readers is a part of the article, or it completes the article. So you will want to enable readers to raise their questions and record the discussion that may be helpful for future readers.
+"Talk is cheap, show me the code". Sorry, wrong script. When you blog, you hope someone will read it. When people read it with their minds, they probably will have questions. Of course, you can have people connact you by twitter. However, discussions with the readers is a part of the article, or it completes the article. So you will want to enable readers to raise their questions and record the discussion that may be helpful for future readers.
 
 Why Disqus?
 ---
