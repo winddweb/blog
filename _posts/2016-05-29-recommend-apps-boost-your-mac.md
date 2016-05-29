@@ -8,7 +8,7 @@ comments: true
 
 Introduction
 ---
-This is a long list of applications that I highly recommend. If you have better alternatives or some must-have app you want to recommend, leave a comment!
+This is a long list of applications that I highly recommend. If you have better alternatives or some must-have apps you want to recommend, leave a comment!
 
 
 Safari
@@ -17,7 +17,7 @@ Safari
 ![safari-icon]({{ site.baseurl }}/assets/icons/safari.png)
 ![safari-preview-icon]({{ site.baseurl }}/assets/icons/safari-p.png)
 
-I prefer Safari to all the other browsers. If your want to test the new features that's in beta, there is a preview version available.
+I prefer Safari to all the other browsers. If you want to test the new features that's in beta, there is a preview version available.
 
 ---
 
@@ -47,7 +47,7 @@ Bartender will save you from your overflowed menu-bar items. It gives you anothe
 
 ![flux-icon]({{ site.baseurl }}/assets/icons/flux.png)
 
-The night-shift for your mac. Turn the screen more yellow-ish at night.
+The night-shift for your Mac. Turn the screen more yellow-ish at night.
 
 ---
 
@@ -55,7 +55,7 @@ The night-shift for your mac. Turn the screen more yellow-ish at night.
 
 ![caffeine-icon]({{ site.baseurl }}/assets/icons/caffeine.png)
 
-Keeps your mac from sleep mode. I don't know why don't I just turn of auto sleep in the system preferences.
+Keeps your Mac from sleep mode. I don't know why don't I just turn of auto sleep in the system preferences.
 
 ---
 
@@ -63,7 +63,7 @@ Keeps your mac from sleep mode. I don't know why don't I just turn of auto sleep
 
 ![istat-menus-icon]({{ site.baseurl }}/assets/icons/istatmenus.png)
 
-Displays your mac's disk, CPU, memory, network usage, etc.
+Displays your Mac's disk, CPU, memory, network usage, etc.
 
 ---
 
@@ -87,13 +87,13 @@ Keeps your paste history. It sounds like a smart idea, but I found myself not us
 
 ![sleeptime-icon]({{ site.baseurl }}/assets/icons/sleeptime.png)
 
-Sleeps your mac for you after a period of time you set.
+Sleeps your Mac for you after a period of time you set.
 
 ### [MagicanRest][MagicanRest]
 
 ![magicanrest-icon]({{ site.baseurl }}/assets/icons/magicanrest.png)
 
-Reminds you to take a rest repeatedly. Use it if you regularly sitting in front of your mac.
+Reminds you to take a rest repeatedly. Use it if you regularly sitting in front of your Mac.
 
 ---
 
@@ -128,7 +128,7 @@ Wrapper for you web application.
 
 ![airserver-icon]({{ site.baseurl }}/assets/icons/airserver.png)
 
-Turns your mac into a airplay display. For example, you can cast your iPhone's screen wirelessly to your mac.
+Turns your Mac into a airplay display. For example, you can cast your iPhone's screen wirelessly to your Mac.
 
 ---
 
@@ -152,7 +152,7 @@ The ultimate version of Finder. Has a lot of power user features if you prefer.
 
 ![tuxera-icon]({{ site.baseurl }}/assets/icons/tuxera.png)
 
-Adds NTFS writing ability to your mac. It's useful when you have some portable hard disk that shares with windows machines.
+Adds NTFS writing ability to your Mac. It's useful when you have some portable hard disk that shares with windows Machines.
 
 ---
 
@@ -177,7 +177,7 @@ A safe for your files. Encrypt your files and hide them from the other files.
 ![splashtop-icon]({{ site.baseurl }}/assets/icons/splashtop.png)
 ![splashtopstreamer-icon]({{ site.baseurl }}/assets/icons/splashtopstreamer.png)
 
-Under the same local network (or remotely if you pay them), stream your mac's screen with keyboard and mouse control to your iPad or iPhone, or it is also possible to do it between your PC and mac.
+Under the same local network (or remotely if you pay them), stream your Mac's screen with keyboard and mouse control to your iPad or iPhone, or it is also possible to do it between your PC and Mac.
 
 ---
 
@@ -332,7 +332,7 @@ Tracks your time. Generating invoices feature is useful if you do freelance.
 
 ![Parallels Desktop-icon]({{ site.baseurl }}/assets/icons/pd.png)
 
-Vritual machine software. The only disadvantage is it is expansive and the company version bump the software every year but the support lasts only 2 years?
+Vritual Machine software. The only disadvantage is it is expansive and the company version bump the software every year but the support lasts only 2 years?
 
 ---
 
@@ -374,7 +374,7 @@ Markdown editor, but it focuses on general writing. (Not the best for programmer
 
 ### [MacDown][MacDown]
 
-![macdown-icon]({{ site.baseurl }}/assets/icons/macdown.png)
+![Macdown-icon]({{ site.baseurl }}/assets/icons/Macdown.png)
 
 Good markdown editor. Has all that you want.
 
@@ -446,7 +446,7 @@ Lighter version of MediBang.
 
 ![-icon]({{ site.baseurl }}/assets/icons/CSP.png)
 
-If you know SAI for windows, this is a good alterative for mac users.
+If you know SAI for windows, this is a good alterative for Mac users.
 
 ---
 
@@ -481,7 +481,7 @@ Third party bilibili.com client. Say goodbye to flash.
 
 ![blu-rayplayer-icon]({{ site.baseurl }}/assets/icons/blu-rayplayer.png)
 
-If you have a Blu-ray driver connected to your mac, you will need a player, and this is the player.
+If you have a Blu-ray driver connected to your Mac, you will need a player, and this is the player.
 
 ---
 
@@ -556,7 +556,7 @@ Gone
 
 ![actions-server-icon]({{ site.baseurl }}/assets/icons/actions-server.png)
 
-Actions was good. Quadro is expensive. Turn your iPad into a panel of shortcuts for your mac.
+Actions was good. Quadro is expensive. Turn your iPad into a panel of shortcuts for your Mac.
 
 Thank you
 ---
@@ -567,11 +567,11 @@ for reading such a long list. I assure you it is worth reading.
 [air-server]: https://www.airserver.com
 [ampps]: http://www.ampps.com
 [anydo]: https://www.any.do
-[app-cleaner]: https://freemacsoft.net/appcleaner/
+[app-cleaner]: https://freeMacsoft.net/appcleaner/
 [atom]: https://atom.io
-[bartender]: https://www.macbartender.com
-[bili]: http://bilimac.eqoe.cn
-[blu-ray]: http://www.macblurayplayer.com
+[bartender]: https://www.Macbartender.com
+[bili]: http://biliMac.eqoe.cn
+[blu-ray]: http://www.Macblurayplayer.com
 [brackets]: http://brackets.io
 [caffeine]: http://lightheadsw.com/caffeine/
 [codekit]: https://incident57.com/codekit/
@@ -586,13 +586,13 @@ for reading such a long list. I assure you it is worth reading.
 [Fluid]: http://fluidapp.com
 [flux]: https://justgetflux.com
 [HandBrake]: https://handbrake.fr
-[Hider]: http://macpaw.com/hider
-[ia-writer]: https://ia.net/writer/mac/
-[ImageOptim]: https://imageoptim.com/mac
-[iStat Menus]: https://bjango.com/mac/istatmenus/
+[Hider]: http://Macpaw.com/hider
+[ia-writer]: https://ia.net/writer/Mac/
+[ImageOptim]: https://imageoptim.com/Mac
+[iStat Menus]: https://bjango.com/Mac/istatmenus/
 [keka]: http://www.kekaosx.com/en/
 [Leanote]: https://leanote.com
-[MacDown]: http://macdown.uranusjr.com
+[MacDown]: http://Macdown.uranusjr.com
 [MagicanRest]: https://itunes.apple.com/us/app/magicanrest/id634255909?mt=12
 [MakeMKV]: http://www.makemkv.com
 [mamp]: https://www.mamp.info/en/
@@ -608,11 +608,11 @@ for reading such a long list. I assure you it is worth reading.
 [Paste]: http://pasteapp.me
 [Path Finder]: http://www.cocoatech.com/pathfinder/
 [Pencil]: http://pencil.evolus.vn
-[Pocket]: https://getpocket.com/mac/?a=mac
+[Pocket]: https://getpocket.com/Mac/?a=Mac
 [Poi]: https://github.com/poooi/poi
 [quadro]: http://quadro.me
 [RecordIt]: http://recordit.co
-[Reeder]: http://reederapp.com/mac/
+[Reeder]: http://reederapp.com/Mac/
 [Simple Comic]: http://dancingtortoise.com/simplecomic/
 [Sketch]: https://www.sketchapp.com
 [Slack]: https://slack.com
@@ -620,12 +620,12 @@ for reading such a long list. I assure you it is worth reading.
 [sourcetree]: https://www.sourcetreeapp.com
 [Splash Streamer]: http://www.splashtop.com
 [sublime]: http://sublimetext.com
-[Teamviewer]: https://www.teamviewer.com/en/download/mac/
+[Teamviewer]: https://www.teamviewer.com/en/download/Mac/
 [things]: https://culturedcode.com/things/
 [Transmission]: https://www.transmissionbt.com
 [transmit]: https://panic.com/transmit/
-[Tuxera]: https://www.tuxera.com/products/tuxera-ntfs-for-mac/
-[VLC]: http://www.videolan.org/vlc/download-macosx.html
+[Tuxera]: https://www.tuxera.com/products/tuxera-ntfs-for-Mac/
+[VLC]: http://www.videolan.org/vlc/download-Macosx.html
 [vox]: http://coppertino.com
 [vs-code]: https://code.visualstudio.com
 [waste]: http://www.bumblebeesystems.com/wastenotime/
