@@ -374,7 +374,7 @@ Markdown editor, but it focuses on general writing. (Not the best for programmer
 
 ### [MacDown][MacDown]
 
-![Macdown-icon]({{ site.baseurl }}/assets/icons/Macdown.png)
+![Macdown-icon]({{ site.baseurl }}/assets/icons/macdown.png)
 
 Good markdown editor. Has all that you want.
 
