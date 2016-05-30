@@ -6,10 +6,11 @@ tags: ["OS X"]
 comments: true
 ---
 
+![recommend-apps]({{ site.baseurl }}/assets/recommend-apps.png)
+
 Introduction
 ---
 This is a long list of applications that I highly recommend. If you have better alternatives or some must-have apps you want to recommend, leave a comment!
-
 
 Safari
 ---
