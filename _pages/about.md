@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Test in folder
+title: About
 permalink: /about/
 ---
 
