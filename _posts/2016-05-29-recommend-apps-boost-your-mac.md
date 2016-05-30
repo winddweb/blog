@@ -121,7 +121,7 @@ Use your iPad (or iPhone if you want) as a second screen.
 
 ![fluid-icon]({{ site.baseurl }}/assets/icons/fluid.png)
 
-Wrapper for you web application.
+Wrapper for your favorite web application. 
 
 ---
 
