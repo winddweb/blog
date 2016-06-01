@@ -318,7 +318,7 @@ A GUI of sass, coffeescript compiler plus image optimization and browser auto re
 
 ---
 
-### ~~[Corenerstone][cornerstone]~~
+### ~~[Cornerstone][cornerstone]~~
 
 ![cornerstone-icon]({{ site.baseurl }}/assets/icons/cornerstone.png)
 
