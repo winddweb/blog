@@ -84,6 +84,14 @@ Keeps your paste history. It sounds like a smart idea, but I found myself not us
 
 ---
 
+### [PopClip][popclip]
+
+![popclip-icon]({{ site.baseurl }}/assets/icons/popclip.png)
+
+Display a tooltip when you select text. Very handy and hassle-free. Tons of useful extensions and you can make your own. Some extensions that I installed are: Append, Sort, Title Case, Say, PDF highlight.
+
+---
+
 ### [SleepTime][SleepTime]
 
 ![sleeptime-icon]({{ site.baseurl }}/assets/icons/sleeptime.png)
@@ -611,6 +619,7 @@ for reading such a long list. I assure you it is worth reading.
 [Pencil]: http://pencil.evolus.vn
 [Pocket]: https://getpocket.com/Mac/?a=Mac
 [Poi]: https://github.com/poooi/poi
+[popclip]: http://pilotmoon.com/popclip/
 [quadro]: http://quadro.me
 [RecordIt]: http://recordit.co
 [Reeder]: http://reederapp.com/Mac/
