@@ -12,6 +12,27 @@ Introduction
 ---
 This is a long list of applications that I highly recommend. If you have better alternatives or some must-have apps you want to recommend, leave a comment!
 
+Must-have
+---
+I will introduce more than 70 applications below. These apps will fit different people's needs depending on stuff they do. But I also have a list of must-haves that will generally benefit everyone using a mac.
+
+1. If you own Mac, iPhone and iPad, you should not give up the advantage of the advantage of syncing your data across these devices. Apple's stock apps usually have this capability. 
+    
+    Such as Safari, you can sync your bookmarks, that's a basic one, and also sync your tabs. You can see what tabs are opened on any mac and iOS device you own, and open or close it from anywhere. Similar for Reminders, Notes, Photos.
+
+2. Now comes the list:
+
+- Bartender: keep your menu bar clean.
+- Flux screen: reduce the blue light from your screen, for a better sleep.
+- iStat Menus: display your CPU, memory and disk usage.
+- MagicanRest: remind you to take a break from time to time. The first wealth is health.
+- PopClip: tool tip for selected text.
+- Tuxera: for NTFS support.
+- Keka: for all types of compressed file. (there are other alternatives, but you must install one of them.)
+
+
+---
+
 Safari
 ---
 
@@ -89,6 +110,14 @@ Keeps your paste history. It sounds like a smart idea, but I found myself not us
 ![popclip-icon]({{ site.baseurl }}/assets/icons/popclip.png)
 
 Display a tooltip when you select text. Very handy and hassle-free. Tons of useful extensions and you can make your own. Some extensions that I installed are: Append, Sort, Title Case, Say, PDF highlight.
+
+---
+
+### [Itsycal][itsycal]
+
+![itsycal-icon]({{ site.baseurl }}/assets/icons/itsycal.png)
+
+Adds an icon in your menu bar, and displays the calendar for you. It's 
 
 ---
 
@@ -599,6 +628,7 @@ for reading such a long list. I assure you it is worth reading.
 [ia-writer]: https://ia.net/writer/Mac/
 [ImageOptim]: https://imageoptim.com/Mac
 [iStat Menus]: https://bjango.com/Mac/istatmenus/
+[itsycal]: https://www.mowglii.com/itsycal/
 [keka]: http://www.kekaosx.com/en/
 [Leanote]: https://leanote.com
 [MacDown]: http://Macdown.uranusjr.com
