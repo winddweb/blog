@@ -141,9 +141,7 @@ right="Display a tooltip when you select text. Very handy and hassle-free. Tons 
 {% include 1-2.html 
 image1="/assets/icons/itsycal.png"
 left=""
-right="Adds an icon in your menu bar, and displays the calendar for you. It's 
-
----"
+right="Adds an icon in your menu bar, and displays the calendar for you."
 %}
 
 ---
@@ -155,6 +153,8 @@ image1="/assets/icons/sleeptime.png"
 left=""
 right="Sleeps your Mac for you after a period of time you set."
 %}
+
+---
 
 ### [MagicanRest][MagicanRest]
 
