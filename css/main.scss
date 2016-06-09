@@ -49,6 +49,8 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "gridle/gridle",
+        "grid-settings",
         "compass/css3",
         "variables",
         "fonts",
