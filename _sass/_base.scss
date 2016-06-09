@@ -15,6 +15,9 @@ dl, dd, ol, ul, figure {
 }
 
 
+// generate classes :
+@include gridle_generate_classes ( );
+
 /**
  * Basic styling
  */
