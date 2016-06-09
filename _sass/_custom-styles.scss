@@ -127,3 +127,16 @@ $parent-background: #fff;
         background: $parent-background;
     }
 }
+
+/**
+ *
+ * components
+ *
+* -------------------------------------------------------------- */
+
+/**
+ * one usage of image with text aside
+* -------------------------------------------------------------- */
+.image-text-side-wrapper {
+    margin-bottom: $spacing-unit;
+}
