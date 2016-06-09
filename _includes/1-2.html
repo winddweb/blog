@@ -1,0 +1,23 @@
+<!-- _includes/image-text-side.html -->
+<div class="image-text-side-wrapper" >
+    <div class="row">
+    {% if include.left %}
+        <div class="gr-4">
+            {% if include.image1 %}
+                <img src="{{site.baseurl}}{{ include.image1 }}" alt="">
+            {% endif %}
+
+            {% if include.image2 %}
+                <img src="{{site.baseurl}}{{ include.image2 }}" alt="">
+            {% endif %}
+
+            {{ include.left | markdownify }}
+        </div>
+    {% endif %}
+    {% if include.right %}
+        <div class="gr-8">
+            {{ include.right | markdownify }}
+        </div>
+    {% endif %}
+    </div>
+</div>
