@@ -44,7 +44,8 @@ tagline: >
 description: > # this means to ignore newlines until "baseurl:"
   I don't know programming. I don't know photography. I don't know drawing. Winddweb, I am not sure what it means. Maybe it means wind the web around me.
 
-baseurl:             /blog # the subpath of your site, e.g. /blog
+# baseurl:             /blog # the subpath of your site, e.g. /blog
+baseurl:
 url:                 https://winddweb.github.io # the base hostname & protocol for your site
 timezone:            America/Los_Angeles
 paginate:            5
