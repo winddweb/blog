@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "Add disqus comments to your blog"
+title:  "Add Disqus Comments to Your Blog"
 categories: coding tutorial
 tags: jekyll disqus
 comments: true
 ---
 
+
 Target
 ---
 "Talk is cheap, show me the code". Sorry, wrong script. When you blog, you hope someone will read it. When people read it with their minds, they probably will have questions. Of course, you can have people connact you by twitter. However, discussions with the readers is a part of the article, or it completes the article. So you will want to enable readers to raise their questions and record the discussion that may be helpful for future readers.
+
 
 Why Disqus?
 ---
@@ -24,25 +26,25 @@ Why Disqus?
 
 
 
-Embed it in your template
+Embed It in Your Template
 ---
 
 ### 1. Set up
 
-- Go to [Disqus][disqus] and register an account.
-- Create a website in their system. https://disqus.com/admin/create/
-- Configuration: fill in the information of your website
+-   Go to [Disqus][disqus] and register an account.
+-   Create a website in their system. https://disqus.com/admin/create/
+-   Configuration: fill in the information of your website
     - Name
     - URL
     - Commenter Avatar
     - Category
     - Description
     - ...
-- Go to installation tab and choose Universal Code
+-   Go to installation tab and choose Universal Code
 
-    ![install-disqus]({{ site.baseurl }}/assets/disqus-setting.png)
-    
-### 2. Add the code snippet to your template
+      ![install-disqus]({{ site.baseurl }}/assets/disqus-setting.png)
+
+### 2. Add the Code Snippet to Your Template
 
 After we see the code from Disqus, we can start integrate it into our template. 
 
@@ -52,19 +54,19 @@ After we see the code from Disqus, we can start integrate it into our template.
 
 3. Uncomment the first part of the code, `var disqus_config=...`
 
-4.  Edit the `PAGE_URL` and `PAGE_IDENTIFIER`, it's important
-    
-    ```html
+4. Edit the `PAGE_URL` and `PAGE_IDENTIFIER`, it's important
+
+   ```html
     # compose the URL from three variables, no slashes
     this.page.url = "{{site.url}}{{site.baseurl}}{{page.url}}"; 
     
     # Use slugified page title as Unique ID because my blog title is unique
     this.page.identifier = "{{ page.title | slugify: 'pretty' }}";
-    ``` 
+   ```
 
-5.  Here's the content of my `comments.html` for reference. 
+5. Here's the content of my `comments.html` for reference. 
 
-    ```html
+   ```html
     <div id="disqus_thread"></div>
     <script>
     
@@ -84,24 +86,25 @@ After we see the code from Disqus, we can start integrate it into our template.
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
      -->
-    ```
-    
-6.  Add `comments.html` to your layout file. I picked my post template `_layout/post.html`
-    
+   ```
+
+6. Add `comments.html` to your layout file. I picked my post template `_layout/post.html`
+
     Add this below `</article>`
-    
+
     {% raw %}
-    
-    ```html
+
+   ```html
     {% if page.comments == true %}
     <div>
-	   {% include comments.html %}
+      {% include comments.html %}
     </div>
     {% endif %}
-    ```
+   ```
     {% endraw %}
-    
-Add a switch
+
+
+Add a Switch
 ---
 
 Yes, you may have noticed that I didn't simply {% raw %}`{% include  comments.html %}`{% endraw %}, but I added a condition depending on a variable. So you can control if a post will have comments section by setting a variable `comments` equal to `true`. If you didn't include `comments` variable in your YML Front Matter, then your post will not have comments.
@@ -117,6 +120,7 @@ tags: jekyll disqus
 comments: true
 ---
 ```
+
 
 Conclusion
 ---

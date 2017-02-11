@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to remove tracked files in git"
+title:  "How to Remove Tracked Files in Git"
 date:   2016-05-22 17:47:16
 categories: blog
 tags: coding git
@@ -18,7 +18,8 @@ git add .
 git commit -m "fixing .gitignore"
 ```
 
-Simple and Stupid way
+
+Simple and Stupid Way
 ---
 
 Well, if somehow git still tracks your file. Just try to backup the local changes you have, then remove the repository and clone it back from the remote repo. The `.gitignore` should work correctly. 

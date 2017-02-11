@@ -64,7 +64,8 @@ Next, let's add the corresponding styles for the checkbox. I chose to add an add
 }
 ```
 
-Let's try it
+
+Let's Try It
 ---
 
 **Markdown**
@@ -81,7 +82,9 @@ Let's try it
 - [ ] First todo item.
 - [x] Write a blog for adding github checkbox feature.
 
-Awesome, thank you
+
+
+Awesome, Thank You
 ---
 Nice job. See you in next one.
 

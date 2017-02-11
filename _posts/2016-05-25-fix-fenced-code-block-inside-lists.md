@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fix the fenced code block inside ordered list"
+title:  "Fix the Fenced Code Block Inside Ordered List"
 date:   2016-05-25 03:45 
 categories: coding tutorial
 tags: jekyll markdown
@@ -12,7 +12,8 @@ TL;DR: Be careful, you need to align them perfectly.
 
 > What I want to archive is the nested code snippet inside ordered list item, so the numbers count continuously.
 
-First version
+
+First Version
 ---
 
 This is when I just type normally as I always do in other markdown files. 
@@ -25,13 +26,13 @@ This is when I just type normally as I always do in other markdown files.
     ```bash
     ruby --version
     ruby 2.X.X
-    ```
+```
 2. Second sentence. Bla bla bla.
 
-    ```bash
+   ```bash
     ruby --version
     ruby 2.X.X
-    ```
+   ```
 ```
 
 **Output**
@@ -41,17 +42,18 @@ This is when I just type normally as I always do in other markdown files.
     ```bash
     ruby --version
     ruby 2.X.X
-    ```
+```
 2. Second sentence. Bla bla bla.
 
-    ```bash
+   ```bash
     ruby --version
     ruby 2.X.X
-    ```
+   ```
 
 The structure I used was `number` + `dot` + `space` + `content`. But the output is rendered as an inline code like this, `bash ruby --version ruby 2.X.X`
 
-The correct way
+
+The Correct Way
 ---
 
 **Markdown**
@@ -66,9 +68,9 @@ Note: ^ points out a space I added, to align the list item with the fenced code 
     ```bash
     ruby --version
     ruby 2.X.X
-    ```
+```
 2.  Second sentence. Bla bla bla.
-    
+
     ```bash
     ruby --version
     ruby 2.X.X
@@ -82,13 +84,14 @@ Note: ^ points out a space I added, to align the list item with the fenced code 
     ```bash
     ruby --version
     ruby 2.X.X
-    ```
+```
 2.  Second bla bla
 
     ```bash
     ruby --version
     ruby 2.X.X
     ```
+
 
 Conclusion
 ---

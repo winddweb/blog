@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "OS X software to boost your life"
+title:  "OS X Software to Boost Your Life"
 categories: blog
 tags: ["OS X"]
 comments: true
@@ -14,7 +14,7 @@ Introduction
 This is a long list of applications that I highly recommend. If you have better alternatives or some must-have apps you want to recommend, leave a comment!
 
 
-Must-have
+Must-Have
 ---
 I will introduce more than 70 applications below. These apps will fit different people's needs depending on stuff they do. But I also have a list of must-haves that will generally benefit everyone using a mac.
 
@@ -49,7 +49,7 @@ right="I prefer Safari to all the other browsers. If you want to test the new fe
 ---
 
 
-Safari extension
+Safari Extension
 ---
 
 ### [WasteNoTime][waste]
@@ -753,7 +753,7 @@ right="Actions was good. Quadro is expensive. Turn your iPad into a panel of sho
 ---
 
 
-Thank you
+Thank You
 ---
 for reading such a long list. I assure you it is worth reading.
 

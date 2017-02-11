@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How I set up this blog"
+title:  "How I Set Up This Blog"
 date:   2016-05-18 03:20:31 -0700
 categories: coding tutorial
 tags: jekyll meta-blog
@@ -10,7 +10,8 @@ Before I acutally write any blogs, I decide to record all the steps to set up th
 
 OK. Without discussing why I chose Github plus jekyll as the blog platform, let's go ahead and create the blog.
 
-Hosting with github pages
+
+Hosting With Github Pages
 ---
 First of all, I am going to use github pages to host my blog. So if you don't know what is github pages and how it works, check out [this link][git-pages]. 
 
@@ -22,7 +23,7 @@ In a nutshell, github provides hosting service, one website as user's page and o
 I will create my blog at a new repo named `blog`. So it will be [https://winddweb.github.io/blog](https://winddweb.github.io/blog)
 
 
-What is Jekyll
+What Is Jekyll
 ---
 [Jekyll][jekyll] is an open source tool that builds **static** website from text(markdown) renderer, dynamic templates/partials and even some powerful third party plugins. It is the engine behind Githhub Pages, that's why it is perfect for building our pages and **blogs** hosted by Github's server for free.
 
@@ -31,7 +32,7 @@ Requirements
 ---
 
 1.  Check your Ruby version. If it's not 2.0.0 or higher, [install it][ruby].
-    
+
     ```bash
     ruby --version
     ruby 2.X.X
@@ -40,11 +41,13 @@ Requirements
 2.  Install [bundler][bundler], which is a Ruby gem package manager.
 
     ```bash
-    gem install bundler
-    # Installs the Bundler gem
+      gem install bundler
+      # Installs the Bundler gem
     ```
 
-Create a new Repository
+
+
+Create a New Repository
 ---
 
 1.  If for some reason you don't have git installed, get it [here][get-git]
@@ -52,52 +55,56 @@ Create a new Repository
 2.  Create a repo called `blog`
 
     ```bash
-    git init blog
-    Initialized empty Git repository in /Users/windd/develop/blog/.git/
-    # Creates a new file directory on your local computer, initialized as a Git repository
+      git init blog
+      Initialized empty Git repository in /Users/windd/develop/blog/.git/
+      # Creates a new file directory on your local computer, initialized as a Git repository
     ```
 
 3.  Change directories to the new repository I just created:
 
     ```bash
-    cd blog
-    # Changes the working directory
+      cd blog
+      # Changes the working directory
     ```
-    
+
 4.  Since my local repository is a Project pages site, create a new gh-pages branch:
 
     ```bash
-    git checkout -b gh-pages
-    Switched to a new branch 'gh-pages'
-    # Creates a new branch called 'gh-pages', and checks it out
+      git checkout -b gh-pages
+      Switched to a new branch 'gh-pages'
+      # Creates a new branch called 'gh-pages', and checks it out
     ```
 
-Install Jekyll using Bundler
+
+
+Install Jekyll Using Bundler
 ---
 
 1.  Create a `Gemfile` in my local Jekyll site repo with the following contents `~/blog/Gemfile
-    
+
     ```
     source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+    gem 'github-pages', group: :jekyll_plugins
     ```
 
 2.  Install dependencies.
-    
+
     ```bash
-    bundle install
-    Fetching gem metadata from https://rubygems.org/............
-    Fetching version metadata from https://rubygems.org/...
-    Fetching dependency metadata from https://rubygems.org/..
-    Resolving dependencies...
+      bundle install
+      Fetching gem metadata from https://rubygems.org/............
+      Fetching version metadata from https://rubygems.org/...
+      Fetching dependency metadata from https://rubygems.org/..
+      Resolving dependencies...
     ```
 
-Generate Jekyll site
+
+
+Generate Jekyll Site
 ---
-    
+
 1.  Push the local repo to remote repo.
     You can do it using a Github GUI app, such as `SourceTree` or using command line tools. Here I already created my `blog` repository in github, the link is `https://github.com/winddweb/blog.git`
-    
+
     ```bash
     # stage all files
     git add .
@@ -107,7 +114,7 @@ Generate Jekyll site
     git remote add origin https://github.com/winddweb/blog.git
     # push changes to remote
     git push origin gh-pages 
-    
+
     Counting objects: 5, done.
     Delta compression using up to 8 threads.
     Compressing objects: 100% (4/4), done.
@@ -125,28 +132,28 @@ Generate Jekyll site
     bundle exec jekyll new . --force
     New jekyll site installed in /Users/windd/develop/blog.
     ```
-    
+
 3.  Build/serve the Jekyll site
-    
+
     ```bash
-    # cd into the root dir, /blog/ in my case
-    # run this command
-    bundle exec jekyll serve
-    
-    Configuration file: /Users/octocat/my-site/_config.yml
-           Source: /Users/octocat/my-site
-      Destination: /Users/octocat/my-site/_site
-Incremental build: disabled. Enable with --incremental
-     Generating...
-                   done in 0.309 seconds.
-Auto-regeneration: enabled for '/Users/octocat/my-site'
-Configuration file: /Users/octocat/my-site/_config.yml
-   Server address: http://127.0.0.1:4000/
- Server running... press ctrl-c to stop.
+      # cd into the root dir, /blog/ in my case
+      # run this command
+      bundle exec jekyll serve
+      
+      Configuration file: /Users/octocat/my-site/_config.yml
+             Source: /Users/octocat/my-site
+        Destination: /Users/octocat/my-site/_site
+     Incremental build: disabled. Enable with --incremental
+       Generating...
+                     done in 0.309 seconds.
+     Auto-regeneration: enabled for '/Users/octocat/my-site'
+     Configuration file: /Users/octocat/my-site/_config.yml
+     Server address: http://127.0.0.1:4000/
+      Server running... press ctrl-c to stop.
 
     ```
-    
-    Now if you go to the browser and type in http://127.0.0.1:4000/. Ta-da, the website is there. 
+
+      Now if you go to the browser and type in http://127.0.0.1:4000/. Ta-da, the website is there. 
 
 {% include image.html
             img="/assets/Screen Shot 2016-05-18 at 12.55.38 AM.png"
@@ -159,7 +166,7 @@ Configuration file: /Users/octocat/my-site/_config.yml
 > Remeber to run `bundle update` from time to time, since the world is changing fast and the `github-pages` may be updated frequently that you need to keep up with it.
 
 
-Next Stop
+Next Step
 ---
 
 To prevent this post getting to long, I will stop here, as I already have the working website locally.  
@@ -169,26 +176,26 @@ However, if I push the gh-pages branch to the remote repository at this point, I
 
 See you in the next one.
 
-
 ---
+
 
 Mission in Progress
 ---
 
 - [x] Create the Repository & Website
-    - [x] Install Dependencies
-    - [x] Create a repository
-    - [x] Build a Jekyll website
+- [x] Install Dependencies
+- [x] Create a repository
+- [x] Build a Jekyll website
 - [ ] Customize the Blog
-    - [ ] Modify config YML
-        - [ ] Modify base URL
-    - [ ] Add _drafts folder
-    - [ ] Fix the Checkbox 
-    - [ ] Add images to my post
-    - [ ] Change the About page
-    - [ ] Change a theme
-    - [ ] Add comments functionality
-    - [ ] Custom 404 page
+- [ ] Modify config YML
+      - [ ] Modify base URL
+- [ ] Add _drafts folder
+- [ ] Fix the Checkbox 
+- [ ] Add images to my post
+- [ ] Change the About page
+- [ ] Change a theme
+- [ ] Add comments functionality
+- [ ] Custom 404 page
 
 [get-git]: https://help.github.com/articles/set-up-git/
 [git-pages]: https://pages.github.com

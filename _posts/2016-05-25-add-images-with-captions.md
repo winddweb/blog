@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Add image with captions to your post"
+title:  "Add Image With Captions to Your Post"
 categories: coding tutorial
 tags: image jekyll
 date: 2016-05-25 15:12:22
@@ -56,23 +56,23 @@ Steps:
 2.  add images to `/assets/` or whatever folder you want
 3.  Example usage
 
-      {% raw %}
+       {% raw %}
 
     ```md
-      {% include image.html
-                  img="assets/Blog Screen Shot 2016-05-18 at 4.01.33 AM.png"
-                  title="Blog Screen Shot 2016-05-18 at 4.01.33 AM"
-                  caption="Blog Screen Shot 2016-05-18 at 4.01.33 AM"
-                  url="http://winddweb.github.io/blog" %}
+       {% include image.html
+                   img="assets/Blog Screen Shot 2016-05-18 at 4.01.33 AM.png"
+                   title="Blog Screen Shot 2016-05-18 at 4.01.33 AM"
+                   caption="Blog Screen Shot 2016-05-18 at 4.01.33 AM"
+                   url="http://winddweb.github.io/blog" %}
     ```
 
-      {% endraw %}
+       {% endraw %}
 
-	{% include image.html
-      img="assets/Blog Screen Shot 2016-05-18 at 4.01.33 AM.png"
-      title="Blog Screen Shot 2016-05-18 at 4.01.33 AM"
-      caption="Blog Screen Shot 2016-05-18 at 4.01.33 AM"
-      url="http://winddweb.github.io/blog" %}
+    {% include image.html
+       img="assets/Blog Screen Shot 2016-05-18 at 4.01.33 AM.png"
+       title="Blog Screen Shot 2016-05-18 at 4.01.33 AM"
+       caption="Blog Screen Shot 2016-05-18 at 4.01.33 AM"
+       url="http://winddweb.github.io/blog" %}
 
 
 Again, there are several parameters you can pass in the snippet. `img`, `title` are required. Include `caption` and `url` when needed. In the future I will probabaly add some different styles like `float-left` or `float-right`.

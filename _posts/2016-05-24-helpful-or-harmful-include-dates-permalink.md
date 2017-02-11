@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Is it helpful or harmful to include Dates in the Permalink?"
+title:  "Is It Helpful or Harmful to Include Dates in the Permalink?"
 categories: coding tutorial
 date: 2016-05-24 05:49
 tags: jekyll seo
 ---
 The URL of your website is sometimes overlooked, but it is worth spending a little time to set it right when you start a blog.
 
-What does it look like?
+
+What Does It Look Like?
 ---
 
 Let's take a look at the default setting from Jekyll. 
@@ -34,7 +35,8 @@ Here is [an article][seo-15] from MOZ that talks about SEO suggestions if you ar
 So after all, I decided to contain only the title slug in my URL.
 </p>
 
-OK. Set it up
+
+OK. Set It Up
 ---
 We can set our own rules for the `permalink:` in `_config.yml`.
 
@@ -57,7 +59,8 @@ categories: The specified categories for this Post. If a post has multiple categ
 
 So the setting I chose is very simple. `permalink: /:slug`
 
-Additional care
+
+Additional Care
 ---
 
 <p class="pullquote">
@@ -76,6 +79,7 @@ Configuration file: /Users/windd/Documents/develop/@github-blog/blog/_config.yml
 # Oops
 Conflict: The URL '/_site/monthly-project-update/index.html' is the destination for the following pages: _posts/2015-03-06-monthly-project-update.markdown, _posts/2015-04-07-monthly-project-update.markdown
 ```
+
 
 Conclusion
 ---

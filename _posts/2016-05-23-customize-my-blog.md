@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Customize my blog"
+title:  "Customize My Blog"
 date:   2016-05-23 03:30
 categories: coding tutorial
 tags: jekyll meta-blog
 ---
 
 In [last post]({{ site.baseurl }}{% post_url 2016-05-18-start-a-blog-on-github-using-jekyll %}), I introduced how to create a vanilla Jekyll blog on github pages. Let's review my progress.
+
 
 Mission in Progress
 ---
@@ -16,16 +17,17 @@ Mission in Progress
 - [x] Create a repository
 - [x] Build a Jekyll website
 
-### Customize the Blog (Basic settings)
+### Customize the Blog (Basic Settings)
 
 - [ ] Modify config YML
-    - [ ] Modify base URL
+- [ ] Modify base URL
 - [ ] Add _drafts folder
 
 
 In this post, I will start to customize my blog.
 
-Take a glance
+
+Take a Glance
 ---
 First of all, let take a glance at the folder structure of the Jekyll website
 
@@ -75,6 +77,7 @@ First of all, let take a glance at the folder structure of the Jekyll website
 
 Check the [official documentation][jekyll-folder] for more details.
 
+
 _config.yml
 ---
 
@@ -116,7 +119,7 @@ lsi: false
 With that being said, the settings in the config file, are actually all optional, except `url` and `baseurl`. 
 `url` is the domain of your site. It is used to generate all links and URLs throughout the website. In my case, `url` is `https://winddweb.github.io`. 
 
-### Fix the baseurl
+### Fix the Baseurl
 
 At the end of last post, I said there maybe some problem for css files. It is because of the path to the css file is incorrect. 
 Here's what it looks like:
@@ -144,7 +147,7 @@ So later, wherever you need to include a link in your post, insert the `site.bas
 
 Parker has a good post explaining the baseurl.[^parker]
 
-### Other official configurations
+### Other Official Configurations
 
 `port: 4000`: This controls which port your local site will use. It is useful when you need to serve multiple websites. Just assign each website with an unique port.
 
@@ -158,7 +161,7 @@ Parker has a good post explaining the baseurl.[^parker]
 
 More on permalinks: [Create Pages w/o .html extension in the URL](https://jekyllrb.com/docs/pages/)
 
-### Other custom variables
+### Other Custom Variables
 
 All the other variables are all optional. So it depends on what theme you are using, and what variable you want to use in your own templates. Let me show an example about how some of the variables are used.
 
@@ -225,7 +228,7 @@ author:
 So when you start a Jekyll blog, either the original one or with some themes, fill in the custom variables in the config file, and they will be used in all kinds of templates.
 
 
-Working with drafts -- Add `_drafts` folder
+Working With Drafts -- Add `_drafts` Folder
 ---
 Yes, just as simple as it says, create a `_drafts` folder and start writing markdown files in it. The filename don't need to have the date like the normal posts do. And they will not appear in normal building unless you run this command.
 
@@ -236,7 +239,8 @@ bundle exec jekyll build --drafts
 ```
 Then the drafts will show up as the latest articles. When you want to publish it, add dates to the file name, and move it to `_posts` folder.
 
-Let's take a break
+
+Let's Take a Break
 ---
 There are always too much to talk about and I really don't want to stop but the readers will suffer. In this post, I  I will take a step further in future articles. Stay tuned.
 
