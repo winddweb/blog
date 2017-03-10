@@ -49,7 +49,7 @@ baseurl:
 url:                 https://winddweb.github.io # the base hostname & protocol for your site
 timezone:            America/Los_Angeles
 paginate:            5
-
+google_analytics:    UA-93452603-1
 
 # Permalinks#
 permalink:           /:slug
